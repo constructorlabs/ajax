@@ -1,8 +1,8 @@
-fetch('http://www.omdbapi.com/?s=batman&apikey=2cda7206', {method: 'GET'})
+fetch('http://www.omdbapi.com/?s=batman&apikey=2cda7206')
   .then(function(response) {
-    return response.json();
+    debugger;
   }).then(function(data) {
     debugger;
-  }).catch(function() {
+  }).catch(function(error) {
     debugger;
   });
