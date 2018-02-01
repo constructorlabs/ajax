@@ -3,7 +3,7 @@ function getData() {
     url: 'http://www.omdbapi.com',
     data: {
       s: "batman",
-      apikey: "2cda7206"
+      apikey: "XXX"
     },
     type: 'GET',
     success( response, textStatus, jqXHR ){

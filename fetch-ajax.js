@@ -1,4 +1,4 @@
-fetch('http://www.omdbapi.com/?s=batman&apikey=2cda7206')
+fetch('http://www.omdbapi.com/?s=batman&apikey=XXX')
   .then(function(response) {
     debugger;
   }).then(function(data) {
