@@ -1,8 +1,8 @@
-fetch('http://www.omdbapi.com/?s=batman&apikey=XXX')
+fetch('https://swapi.co/api/people')
   .then(function(response) {
-    debugger;
-  }).then(function(data) {
-    debugger;
+    return response.json();
+  }).then(function(body){
+    console.log(body);
   }).catch(function(error) {
-    debugger;
+    console.log(error);
   });
